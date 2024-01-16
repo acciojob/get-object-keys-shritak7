@@ -4,10 +4,6 @@ student={
 		
 	}
 	getKeys(){
-		let keys=[];
-		for(let i in student){
-			keys.push(i);
-		}
-		return keys;
+		return Object.keys(student);
 	}
 }
