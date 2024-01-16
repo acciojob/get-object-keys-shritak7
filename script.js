@@ -4,8 +4,9 @@ student={
 		
 	}
 	getKeys(){
+		let keys=[];
 		for(let i in student){
-			let keys=keys.push(i);
+			keys.push(i);
 		}
 		return keys;
 	}
