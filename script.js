@@ -1,9 +1,9 @@
 //your JS code here. If required.
 student={
-	let name{
+	name:"shri"
 	
-	}
-	getKeys(){
-		return Object.keys(name);
-	}
+}
+Object.prototype.getKeys=()=>{
+	return Object.getKeys(student);
+	
 }
