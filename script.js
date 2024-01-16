@@ -4,6 +4,6 @@ student={
 	
 }
 Object.prototype.getKeys=()=>{
-	return Object.getKeys(student);
+	console.log( Object.getKeys(student);)
 	
 }
