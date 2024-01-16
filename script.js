@@ -3,7 +3,7 @@ student={
 	name:"shri"
 	
 }
-Object.prototype.getKeys=()=>{
-	console.log( Object.getKeys(student));
+student.prototype.getKeys=()=>{
+	console.log(Object.getKeys(student));
 	
 }
