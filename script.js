@@ -1,7 +1,9 @@
 //your JS code here. If required.
 student={
-	let name:"shri"
+	let name{
+	
+	}
 	getKeys(){
-		return Object.keys(student);
+		return Object.keys(name);
 	}
 }
