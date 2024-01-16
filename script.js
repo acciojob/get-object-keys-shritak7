@@ -1,8 +1,6 @@
 //your JS code here. If required.
 student={
-	name(){
-		
-	}
+	this.name:"shri"
 	getKeys(){
 		return Object.keys(student);
 	}
